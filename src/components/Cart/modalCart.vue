@@ -28,7 +28,7 @@
             </div>
             <hr>
             <div class="empty" v-if="store_cart.getItems.length === 0">
-                <img src="@/assets/empty.svg" alt="Empty cart">
+                <!-- <img src="@/assets/empty.svg" alt="Empty cart"> -->
                 <h4 style="color: var(--secondary);"> Your cart is empty </h4>
                 <small> Add somthing to make me happy for real :-) </small>
             </div>
