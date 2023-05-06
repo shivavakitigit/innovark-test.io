@@ -9,8 +9,8 @@
                 </div>
                 <div class="card-main">
                     <div class="left">
-                        <img src="../../assets/logo.png" alt="">
-                        <h4>zrj zjrzlri ozir zorizrizp pzirjzzroj </h4>
+                        <!-- <img src="../../assets/logo.png" alt=""> -->
+                        <!-- <h4>zrj zjrzlri ozir zorizrizp pzirjzzroj </h4> -->
                         <small> State : Delivered </small>
                     </div>
                     <div class="right">

@@ -2,8 +2,8 @@
         <div class="auth">
                 <div v-if="action === 'register'" class="register">
                         <div class="top">
-                                <img src="@/assets/logo.png" alt="logo" />
-                                <h3> RED REGISTER </h3>
+                                <!-- <img src="@/assets/logo.png" alt="logo" /> -->
+                                <h3> Innovark Course Registeer </h3>
                         </div>
                         <forminput class="login_input" :svg_value="inputs.register.firstname.svg"
                                 :placeholder="inputs.register.firstname.placeholder"
@@ -49,8 +49,8 @@
                 <!-- This is the login  -->
                 <form v-if="action === 'login'" :onsubmit="try_login" class="login">
                         <div class="top">
-                                <img src="@/assets/logo.png" alt="logo" />
-                                <h3> RED LOGIN </h3>
+                                <!-- <img src="@/assets/logo.png" alt="logo" /> -->
+                                <h3> Innovark </h3>
                         </div>
                         <formfeedback v-if="message !== ''"
                                 :svg_value="'M10.2426 16.3137L6 12.071L7.41421 10.6568L10.2426 13.4853L15.8995 7.8284L17.3137 9.24262L10.2426 16.3137Z'"
