@@ -22,21 +22,9 @@ course details, and favourites.
 
 ## Installation
 
-Install my project in two parts. For client side : 
+Install my project For client side : 
 
 ```bash
-    npm i
-```
-
-For api side, you need to type following commands after installing pgadminb : 
-
-```bash
-    sudo apt install pgadmin4
-    sudo -u postgres psql
-    CREATE DATABASE redbrick;
-    sudo -u postgres createuser postgres;
-    alter user postgres with encrypted password postgres;
-    GRANT ALL PRIVILEGES ON DATABASE redbrick TO postgres;
     npm i
 ```
     
